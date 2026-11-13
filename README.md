@@ -9,6 +9,15 @@ style="max-width: 702px; width:100%;">
 
 ## Introduction
 
+### Nuevo: Desktop AI (experimental)
+
+Hay un modo nuevo con figuras vectoriales, transiciones suaves, bocadillos,
+voz opcional e interacción con modelos con visión (Ollama o API compatible con
+OpenAI). Puede reaccionar al monitor o a una región elegida por el usuario.
+Se ejecuta por separado del Shimeji Java original.
+
+**[Instalación, configuración de IA y funcionamiento →](desktop_ai/README.md)**
+
 ### **Disclaimer: This is an unofficial version and is not endorsed or affiliated with Alan Becker.**
 
 ### **Note: This application is only supported for Windows. macOS and Linux are not supported.**

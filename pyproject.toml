@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alan-stickfigures-ai"
+version = "0.1.0"
+description = "An unofficial vector desktop companion with optional screen-aware AI"
+readme = "desktop_ai/README.md"
+requires-python = ">=3.10"
+dependencies = ["PySide6>=6.8,<7"]
+
+[project.scripts]
+alan-stickfigures-ai = "desktop_ai.app:main"
+
+[tool.setuptools.packages.find]
+include = ["desktop_ai*"]
+
+[tool.setuptools.package-data]
+desktop_ai = ["prompts/*.txt"]
